@@ -1,83 +1,149 @@
-🚀 Unstructured Data Agent
+# 🚀 Unstructured Data Agent
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python" />
+  <img src="https://img.shields.io/badge/Streamlit-App-red?logo=streamlit" />
+  <img src="https://img.shields.io/badge/OpenAI-LLM-black?logo=openai" />
+  <img src="https://img.shields.io/badge/Pandas-Data-lightgrey?logo=pandas" />
+  <img src="https://img.shields.io/badge/Unstructured-Parsing-green" />
+</p>
 
-🌐 Live Demo
-👉 Try the app here:
-https://mozoka995-unstructured-data-agent-appapp-7pz4oz.streamlit.app/
+---
 
-📌 Overview
+## 🌐 Live Demo
 
-Unstructured Data Agent is an AI-powered application that transforms messy, unstructured inputs (PDFs, text, notes, etc.) into clean, structured, and actionable insights.
+🚀 **Try the app here:**
 
-It leverages modern LLMs and data processing pipelines to:
+👉 https://mozoka995-unstructured-data-agent-appapp-7pz4oz.streamlit.app/
 
-Extract meaningful information
-Clean and structure raw text
-Generate intelligent summaries
-Enable downstream analytics
+---
 
-The project aligns with modern GenAI data pipelines, where raw data must be processed before being useful for models .
+## 📌 Overview
 
-✨ Features
-📄 Upload and process unstructured text or documents
-🧠 AI-powered summarization and understanding
-🧹 Data cleaning & normalization
-⚡ Fast interactive UI باستخدام Streamlit
-🔌 Easy integration with APIs and workflows
-🏗️ Tech Stack
-Layer	Technology
-Frontend	Streamlit
-Backend	Python
-AI/LLM	OpenAI API
-Data Processing	Pandas
-Parsing	Unstructured / custom pipelines
-⚙️ How It Works
-User uploads or inputs unstructured data
-The system preprocesses and cleans the data
-AI model analyzes and extracts insights
-Output is displayed in a structured format
-📂 Project Structure
+**Unstructured Data Agent** is an AI-powered application that transforms unstructured data (such as PDFs or raw text) into clean, structured, and actionable insights.
+
+This tool helps you:
+- Quickly understand messy data  
+- Automatically clean and organize information  
+- Extract meaningful insights  
+- Convert raw text into structured outputs  
+
+---
+
+## ✨ Features
+
+- 📄 Upload files or input text directly  
+- 🧠 AI-powered analysis using LLMs  
+- 🧹 Data cleaning and structuring  
+- ⚡ Fast and simple UI built with Streamlit  
+- 🔌 Easily extendable and integrable  
+
+---
+
+## 🏗️ Tech Stack
+
+| Layer            | Technology        |
+|------------------|------------------|
+| Frontend         | Streamlit        |
+| Backend          | Python           |
+| AI / LLM         | OpenAI API       |
+| Data Processing  | Pandas           |
+| Parsing          | Unstructured     |
+
+---
+
+## ⚙️ How It Works
+
+```text
+1. User inputs unstructured data
+2. Data is cleaned and preprocessed
+3. AI analyzes the content
+4. Structured output is generated
+```
+
+---
+
+## 📂 Project Structure
+
+```
 unstructured_data_agent/
 │
-├── app.py                # Main Streamlit app
-├── utils/                # Helper functions
-├── processing/           # Data parsing & cleaning
-├── requirements.txt      # Dependencies
-└── README.md             # Project documentation
-🚀 Getting Started
-1. Clone the Repository
+├── app.py
+├── utils/
+├── processing/
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/Mozoka995/unstructured_data_agent.git
 cd unstructured_data_agent
-2. Install Dependencies
+```
+
+### 2. Install dependencies
+
+```bash
 pip install -r requirements.txt
-3. Run the App
+```
+
+### 3. Run the app
+
+```bash
 streamlit run app.py
-🔑 Environment Variables
+```
 
-Create a .env file and add:
+---
 
+## 🔑 Environment Variables
+
+Create a `.env` file and add:
+
+```env
 OPENAI_API_KEY=your_api_key_here
-📊 Use Cases
-Document analysis (PDFs, reports, emails)
-Data extraction for business workflows
-Preprocessing for machine learning pipelines
-Automating manual data cleaning tasks
-📈 Future Improvements
-🔍 Advanced document parsing (tables, images)
-📦 Batch processing support
-🧠 Memory-enabled agents
-🔗 Integration with databases & vector stores
-🤝 Contributing
+```
 
-Contributions are welcome!
+---
 
-Fork the repo
-Create a new branch
-Submit a pull request
-📜 License
+## 📊 Use Cases
 
-This project is licensed under the MIT License.
+- Document analysis (PDFs, emails, reports)  
+- Data preprocessing for machine learning  
+- Automating data cleaning workflows  
+- Extracting structured data from raw text  
 
-👨‍💻 Author
+---
 
-Mohamed Abd Elrazek
+## 📈 Future Improvements
+
+- Advanced parsing for tables and images  
+- Batch processing support  
+- Memory-enabled agents  
+- Integration with databases  
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome:
+
+1. Fork the repository  
+2. Create a new branch  
+3. Submit a pull request  
+
+---
+
+## 📜 License
+
+MIT License
+
+---
+
+## 👨‍💻 Author
+
+**Mohamed Abd Elrazek**
